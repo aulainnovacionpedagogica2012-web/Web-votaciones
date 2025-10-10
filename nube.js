@@ -4,15 +4,15 @@ import { getDatabase, ref, onValue, set, get, push, remove, query, orderByChild,
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL, deleteObject } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBYflm70mFVdioZqKdiWe1m92XCTy44Z_c",
-  authDomain: "votaciones-2024-f1e0c.firebaseapp.com",
-  databaseURL: "https://votaciones-2024-f1e0c-default-rtdb.firebaseio.com/",
-  projectId: "votaciones-2024-f1e0c",
-  storageBucket: "votaciones-2024-f1e0c.firebasestorage.app",
-  messagingSenderId: "293361877394",
-  appId: "1:293361877394:web:22f329fdcfceac4d5ac14b",
+  apiKey: "AIzaSyDdQFMlq2zIMeqRAqs5IPNPhtRCj9CSyN8",
+  authDomain: "prueba-fa82f.firebaseapp.com",
+  databaseURL: "https://prueba-fa82f-default-rtdb.firebaseio.com",
+  projectId: "prueba-fa82f",
+  storageBucket: "prueba-fa82f.appspot.com",
+  messagingSenderId: "259391937035",
+  appId: "1:259391937035:web:1948d12770442f665d850e",
+  measurementId: "G-CEM1MXWM9P"
 };
-
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
@@ -760,4 +760,5 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   } catch (e) { console.error('[nube] index dni check error', e); }
 });
+
  
